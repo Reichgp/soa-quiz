@@ -3,9 +3,9 @@ const DATA_FILE = "SOA_test.json";
 
 let settings = {
   show_progress: true,
-  shuffle_options: false,
+  shuffle_options: true,
   show_explanation: true,
-  shuffle_questions: false
+  shuffle_questions: true
 };
 
 let questions = [];
