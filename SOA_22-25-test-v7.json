@@ -1,0 +1,640 @@
+{
+  "settings": {
+    "show_progress": true,
+    "shuffle_options": false,
+    "show_explanation": true,
+    "shuffle_questions": false
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "single_choice",
+      "options": [
+        "Un programa en ejecución",
+        "Un registro en ejecución",
+        "Un puntero a un registro de una tabla",
+        "Un puntero a un registro de una tabla"
+      ],
+      "question": "Un proceso es:",
+      "correct_answer": "Un programa en ejecución"
+    },
+    {
+      "id": "q2",
+      "type": "single_choice",
+      "options": [
+        "La primera generación",
+        "La segunda generación",
+        "La tercera generación",
+        "La cuarta generación"
+      ],
+      "question": "Los circuitos integrados se empiezan a utilizar en:",
+      "correct_answer": "La tercera generación"
+    },
+    {
+      "id": "q3",
+      "type": "single_choice",
+      "options": [
+        "Todos los equipos tienen el mismo rol",
+        "Un equipo servidor centraliza las peticiones y presta servicio a los demás",
+        "Los equipos son virtualizados mediante hyper-v",
+        "Los equipos son virtualizados mediante virtual-pc"
+      ],
+      "question": "En el modelo cliente-servidor",
+      "correct_answer": "Un equipo servidor centraliza las peticiones y presta servicio a los demás"
+    },
+    {
+      "id": "q4",
+      "type": "single_choice",
+      "options": [
+        "No están orientado a la conexión y no son confiables",
+        "Si están orientado a la conexión y no son confiables",
+        "Si están orientado a la conexión y son confiables",
+        "No están orientado a la conexión y son confiables."
+      ],
+      "question": "Los sockets de datagramas:",
+      "correct_answer": "No están orientado a la conexión y no son confiables"
+    },
+    {
+      "id": "q5",
+      "type": "single_choice",
+      "options": [
+        "Monitor de referencia de Seguridad",
+        "Gestor Entrada/Salida",
+        "Gestor memoria",
+        "Monitor Entrada/Salida"
+      ],
+      "question": "Traduce los comandos de lectura y escritura del modo usuario a las señales enviadas a los dispositivos.",
+      "correct_answer": "Gestor Entrada/Salida"
+    },
+    {
+      "id": "q6",
+      "type": "single_choice",
+      "options": ["Lseek", "Rmdir", "Link", "Access"],
+      "question": "¿Que comando es una llamada sobre ficheros?",
+      "correct_answer": "Lseek"
+    },
+    {
+      "id": "q7",
+      "type": "single_choice",
+      "options": [
+        "RAM: rápida y no volátil, Física: lenta y no volátil",
+        "RAM: rápida y volátil, Física: lenta y no volátil",
+        "RAM: rápida y volátil, Física: lenta y volátil.",
+        "RAM: rápida y volátil, Física: rápida y no volátil"
+      ],
+      "question": "Los tipos de memoria son:",
+      "correct_answer": "RAM: rápida y volátil, Física: lenta y no volátil"
+    },
+    {
+      "id": "q8",
+      "type": "single_choice",
+      "options": ["Ls –l", "Ls –a", "Ls –j", "Ls –show"],
+      "question": "Muestra los archivos ocultos",
+      "correct_answer": "Ls –a"
+    },
+    {
+      "id": "q9",
+      "type": "single_choice",
+      "options": ["While", "For", "If", "Case"],
+      "question": "Cuando conoces el numero repeticiones es preferible utilizar",
+      "correct_answer": "For"
+    },
+    {
+      "id": "q10",
+      "type": "single_choice",
+      "options": [
+        "Verbo y nombre en inglés, separados por guion y primera letra en mayúscula.",
+        "nombre y verbo en inglés, separados por guion y primera letra en mayúscula.",
+        "Verbo y nombre en inglés, separados por punto y primera letra en mayúscula.",
+        "Verbo y nombre en inglés, separados por punto."
+      ],
+      "question": "La mayoría de cmdlets están formados por:",
+      "correct_answer": "Verbo y nombre en inglés, separados por guion y primera letra en mayúscula."
+    },
+    {
+      "id": "q11",
+      "type": "single_choice",
+      "options": [
+        "Gestionar todos los recursos del equipo, internos y externos.",
+        "Gestionar de forma dedicada y exclusiva la memoria ram y la memoria física.",
+        "Gestionar tuberías, permisos y memoria virtual.",
+        "No realiza tareas fundamentales, solo inicia el sistema operativo."
+      ],
+      "question": "Kernel es un programa que se ocupa de la tarea fundamental de:",
+      "correct_answer": "Gestionar todos los recursos del equipo, internos y externos."
+    },
+    {
+      "id": "q12",
+      "type": "single_choice",
+      "options": [
+        "La primera generación",
+        "La segunda generación",
+        "La tercera generación",
+        "La cuarta generación"
+      ],
+      "question": "Los elementos mecánicos se sustituyen por válvulas de vacío en:",
+      "correct_answer": "La primera generación"
+    },
+    {
+      "id": "q13",
+      "type": "single_choice",
+      "options": [
+        "Un mecanismo para controlar todos los periféricos.",
+        "Puede extenderse para estructurar los subsistemas de usuario.",
+        "Maneja THE, Venus y Multics.",
+        "Permite la virtualización independientemente de la plataforma."
+      ],
+      "question": "Ventaja del mecanismo en anillo:",
+      "correct_answer": "Puede extenderse para estructurar los subsistemas de usuario."
+    },
+    {
+      "id": "q14",
+      "type": "single_choice",
+      "options": [
+        "API KERNEL y API Win32/Win64",
+        "API POSIX y API Win8/Win10",
+        "API POSIX y API Win32/Win64",
+        "API MacOs y API Win32/Win64"
+      ],
+      "question": "Las dos APIs más importantes son:",
+      "correct_answer": "API POSIX y API Win32/Win64"
+    },
+    {
+      "id": "q15",
+      "type": "single_choice",
+      "options": [
+        "Subsistema de entorno, servicio de terminal y servicio de servidor.",
+        "Subsistema de terminal, servicio de seguridad y servicio de servidor.",
+        "Subsistema de seguridad, servicio de terminal y servidor cliente.",
+        "Subsistema de seguridad, servicio de terminal y servicio de servidor."
+      ],
+      "question": "El subsistema integral se compone de:",
+      "correct_answer": "Subsistema de seguridad, servicio de terminal y servidor cliente."
+    },
+    {
+      "id": "q16",
+      "type": "single_choice",
+      "options": [".bat", ".ps1", ".h", ".c"],
+      "question": "Un script de PowerShell debe tener extensión:",
+      "correct_answer": ".ps1"
+    },
+    {
+      "id": "q17",
+      "type": "single_choice",
+      "options": [
+        "Detecta que librerías están modificadas y compila solo aquellas que lo necesitan.",
+        "No detecta que librerías están modificadas y compila siempre todas las librerías.",
+        "Detecta que librerías están modificadas.",
+        "Compila solo aquellas que lo necesitan."
+      ],
+      "question": "Respecto a Make es falso:",
+      "correct_answer": "No detecta que librerías están modificadas y compila siempre todas las librerías."
+    },
+    {
+      "id": "q18",
+      "type": "single_choice",
+      "options": [
+        "Conjunto de registros que gobiernan el funcionamiento de hardware interno",
+        "Lenguaje máquina que gobierna el funcionamiento de hardware interno",
+        "El kernel, programa núcleo.",
+        "Ninguna de las anteriores."
+      ],
+      "question": "El sistema operativo controla los recursos a nivel de hardware mediante:",
+      "correct_answer": "Conjunto de registros que gobiernan el funcionamiento de hardware interno"
+    },
+    {
+      "id": "q19",
+      "type": "single_choice",
+      "options": [
+        "Conocer el resultado de un programa antes de ejecutarlo.",
+        "Leer directamente los programas desde las tarjetas perforadas",
+        "Conjunto mínimo de llamadas al sistema",
+        "Maquinas pequeñas con circuitos spools."
+      ],
+      "question": "Spooling es:",
+      "correct_answer": "Leer directamente los programas desde las tarjetas perforadas"
+    },
+    {
+      "id": "q20",
+      "type": "single_choice",
+      "options": [
+        "Son virtualizados mediante hyper-v",
+        "Son virtualizados mediante virtual-pc",
+        "El procesamiento se comparte entre los ordenadores, las decisiones son descentralizadas y conocen todo el sistema",
+        "El procesamiento se comparte entre los ordenadores, las decisiones son centralizadas y conocen todo el sistema"
+      ],
+      "question": "Los sistemas distribuidos",
+      "correct_answer": "El procesamiento se comparte entre los ordenadores, las decisiones son centralizadas y conocen todo el sistema"
+    },
+    {
+      "id": "q21",
+      "type": "single_choice",
+      "options": [
+        "Unidireccional, confiable y orientada a la conexión",
+        "Bidireccional, confiable y orientada a la conexión",
+        "Bidireccional, confiable y no orientada a la conexión",
+        "Unidreccional, confiable y no orientada a la conexión"
+      ],
+      "question": "Los sockets TCP son:",
+      "correct_answer": "Bidireccional, confiable y orientada a la conexión"
+    },
+    {
+      "id": "q22",
+      "type": "single_choice",
+      "options": [
+        "Establece por defecto la política de acceso a todos los objetos",
+        "Forma parte del subsistema de seguridad del subsitema integral.",
+        "Indica cuando se puede acceder a un recurso u objeto.",
+        "Tiene un log de seguridad accesible desde terminal"
+      ],
+      "question": "El monitor de referencia de seguridad",
+      "correct_answer": "Indica cuando se puede acceder a un recurso u objeto."
+    },
+    {
+      "id": "q23",
+      "type": "single_choice",
+      "options": [
+        "sudo apt-get install",
+        "sudo apt-get update",
+        "sudo apt-get upgrade",
+        "sudo apt-get"
+      ],
+      "question": "Podemos actualizar un repositorio mediante:",
+      "correct_answer": "sudo apt-get update"
+    },
+    {
+      "id": "q24",
+      "type": "single_choice",
+      "options": [
+        "&& or , || and y ! not",
+        "&& and , || not y ! or",
+        "& and , | or y ! not",
+        "&& and , || or y ! not"
+      ],
+      "question": "Los operadores lógicos en programación Shell son:",
+      "correct_answer": "&& and , || or y ! not"
+    },
+    {
+      "id": "q25",
+      "type": "single_choice",
+      "options": [
+        "Verdadero",
+        "Falso",
+        "Verdadero para cmdlets del usuario que lo ejecuta",
+        "Verdadero para cmdlets del sistema"
+      ],
+      "question": "El comando Get-Command lista todos los cmdlets disponibles",
+      "correct_answer": "Verdadero"
+    },
+    {
+      "id": "q26",
+      "type": "single_choice",
+      "options": [
+        "Mostrar el nombre hostname del equipo",
+        "Escribir la palabra Host por pantalla",
+        "Mostrar un texto por pantalla",
+        "Escribir la ip del host."
+      ],
+      "question": "El comando “Write-Host” sirve para:",
+      "correct_answer": "Mostrar un texto por pantalla"
+    },
+    {
+      "id": "q27",
+      "type": "single_choice",
+      "options": ["Error()", "Perror()", "Errorp()", "Errore()"],
+      "question": "La función que produce un mensaje con el ultimo error producido es:",
+      "correct_answer": "Perror()"
+    },
+    {
+      "id": "q28",
+      "type": "single_choice",
+      "options": ["exit", "wait", "fork", "exec"],
+      "question": "¿Qué comando crea un proceso hijo?",
+      "correct_answer": "fork"
+    },
+    {
+      "id": "q29",
+      "type": "single_choice",
+      "options": [
+        "A todos los procesos",
+        "Sólo a sí mismo",
+        "Sólo a sus procesos hijos",
+        "Sólo a su proceso padre"
+      ],
+      "question": "¿A qué procesos puede un proceso enviar señales?",
+      "correct_answer": "A todos los procesos"
+    },
+    {
+      "id": "q30",
+      "type": "single_choice",
+      "options": [
+        "CreateDirectory y rmdir",
+        "RemoveDirectory y mkdir",
+        "CreateHardLink y link",
+        "CreateSymbolicLink y link"
+      ],
+      "question": "¿Qué llamadas son homólogas en Windows y Linux?",
+      "correct_answer": "CreateHardLink y link"
+    },
+    {
+      "id": "q31",
+      "type": "single_choice",
+      "options": ["Microsoft", "IBM", "Apple", "Microsoft e IBM"],
+      "question": "¿Quién creó el Sistema Operativo OS/2?",
+      "correct_answer": "Microsoft e IBM"
+    },
+    {
+      "id": "q32",
+      "type": "single_choice",
+      "options": [
+        "El número máximo de parámetros",
+        "El valor que devuelve al código llamante",
+        "El código de las llamadas al sistema está en el kernel",
+        "Las funciones tardan más en ejecutarse"
+      ],
+      "question": "¿Cuál es la diferencia principal entre las llamadas al sistema y las funciones de un lenguaje como C?",
+      "correct_answer": "El código de las llamadas al sistema está en el kernel"
+    },
+    {
+      "id": "q33",
+      "type": "single_choice",
+      "options": ["find", "grep", "fdisk", "file"],
+      "question": "¿Qué comando busca patrones en archivos en linux?",
+      "correct_answer": "grep"
+    },
+    {
+      "id": "q34",
+      "type": "single_choice",
+      "options": [
+        "No hay diferencia, tienen el mismo efecto",
+        "> Sobreescribe el fichero mientras que >> añade el contenido al final",
+        "> Crea el fichero si no existe mientras que >> da error si el fichero existe",
+        "> redirecciona la salida estándar y >> redirecciona la salida de error"
+      ],
+      "question": "La diferencia entre > y >> consiste en:",
+      "correct_answer": "> Sobreescribe el fichero mientras que >> añade el contenido al final"
+    },
+    {
+      "id": "q35",
+      "type": "single_choice",
+      "options": [
+        "Mostrar el nombre hostname del equipo",
+        "Escribir la palabra Host por pantalla",
+        "Mostrar un mensaje de advertencia en el host",
+        "Mostrar un mensaje de error en el host"
+      ],
+      "question": "El comando “Write-Warning” sirve para:",
+      "correct_answer": "Mostrar un mensaje de advertencia en el host"
+    },
+    {
+      "id": "q36",
+      "type": "single_choice",
+      "options": [
+        "Listar el contenido de un directorio",
+        "Listar los archivos con la extensión “al”",
+        "Obtener el listado detallado del contenido de un directorio por páginas",
+        "Listar los archivos que empiecen por more"
+      ],
+      "question": "Mediante el comando “ls -al | more” conseguiremos:",
+      "correct_answer": "Obtener el listado detallado del contenido de un directorio por páginas"
+    },
+    {
+      "id": "q37",
+      "type": "single_choice",
+      "options": [
+        "Comunicación asimétrica entre diferentes componentes",
+        "Asignar recursos reales a la máquina virtual",
+        "Gestionar canales de comunicación",
+        "Gestionar los diferentes componentes distribuidos"
+      ],
+      "question": "¿Cuál es la principal función del exokernel?",
+      "correct_answer": "Asignar recursos reales a la máquina virtual"
+    },
+    {
+      "id": "q38",
+      "type": "single_choice",
+      "options": [
+        "Es un mecanismo de protección jerárquica que proporciona diferentes niveles de acceso.",
+        "Puede extenderse para estructurar los subsistemas de usuario",
+        "Es un mecanismo que simplifica la gestión de memoria",
+        "Permite la virtualización independientemente de la plataforma"
+      ],
+      "question": "Ventaja del mecanismo en anillo en un Sistema operativo:",
+      "correct_answer": "Es un mecanismo de protección jerárquica que proporciona diferentes niveles de acceso."
+    },
+    {
+      "id": "q39",
+      "type": "single_choice",
+      "options": ["644", "755", "600", "666"],
+      "question": "Los permisos -rw-rw-rw- se corresponde con:",
+      "correct_answer": "666"
+    },
+    {
+      "id": "q40",
+      "type": "single_choice",
+      "options": ["sudo", "mcedit", "mkdir", "createdir"],
+      "question": "Con el siguiente comando se pueden crear directorios en UNIX:",
+      "correct_answer": "mkdir"
+    },
+    {
+      "id": "q41",
+      "type": "single_choice",
+      "question": "¿Cuántos hilos de ejecución posee por defecto un proceso en Windows?",
+      "options": [
+        "Ninguno",
+        "Uno",
+        "Dos",
+        "Depende del número de procesadores"
+      ],
+      "correct_answer": "Uno"
+    },
+    {
+      "id": "q42",
+      "type": "single_choice",
+      "question": "Si después de hacer asociaciones=(56 84 95 35 68 68 54 75), ¿echo ${asociaciones[3]} mostrará?:",
+      "options": ["95", "35", "68", "84"],
+      "correct_answer": "35"
+    },
+    {
+      "id": "q43",
+      "type": "single_choice",
+      "question": "¿Qué significa #! /bin/bash?",
+      "options": [
+        "Que el script tiene que ser interpretado por bash",
+        "Que el script no puede ser interpretado por bash",
+        "Que la variable primera no es verdadera",
+        "No es una expresión válida"
+      ],
+      "correct_answer": "Que el script tiene que ser interpretado por bash"
+    },
+    {
+      "id": "q44",
+      "type": "single_choice",
+      "question": "¿Cuáles son los valores que toma $i en el siguiente código? for ($i = 0; $i -ile 7; $i += 2) {$a[$i]}",
+      "options": ["0,1,2,3", "0,1,2,3,4,5,6", "0,2,4,6", "0,2,4,6,7"],
+      "correct_answer": "0,2,4,6"
+    },
+    {
+      "id": "q45",
+      "type": "single_choice",
+      "question": "Un módulo en PowerShell es:",
+      "options": [
+        "Una operación aritmética",
+        "Un subconjunto de comandos",
+        "Un script de nivel de administrador",
+        "Fichero con funciones de PowerShell"
+      ],
+      "correct_answer": "Un subconjunto de comandos"
+    },
+    {
+      "id": "q46",
+      "type": "single_choice",
+      "question": "¿Qué es DirectX?",
+      "options": [
+        "Una distribución de Linux",
+        "Una tecnología para directorios remotos",
+        "Un acelerador de discos",
+        "Una biblioteca gráfica"
+      ],
+      "correct_answer": "Una biblioteca gráfica"
+    },
+    {
+      "id": "q47",
+      "type": "single_choice",
+      "question": "Uno de los siguientes no es objetivo de diseño de un sistema operativo:",
+      "options": ["Elegancia", "Simplicidad", "Globalización", "Robustez"],
+      "correct_answer": "Globalización"
+    },
+    {
+      "id": "q48",
+      "type": "single_choice",
+      "question": "¿Cuál es el modelo de diseño de Linux?",
+      "options": [
+        "Sistema distribuido",
+        "Monolítico",
+        "En capas",
+        "Máquina Virtual"
+      ],
+      "correct_answer": "Monolítico"
+    },
+
+    {
+      "id": "q49",
+      "type": "single_choice",
+      "options": [
+        "Cambia la entrada de un directorio",
+        "Cambia el directorio raíz",
+        "Monta un Sistema de ficheros",
+        "Abre un Sistema de ficheros"
+      ],
+      "question": "¿Cuál es la función del comando mount?",
+      "correct_answer": "Monta un Sistema de ficheros"
+    },
+    {
+      "id": "q50",
+      "type": "single_choice",
+      "options": ["Windows XP", "Windows 2000", "Windows Vista", "Windows 7"],
+      "question": "Indica qué versión de Windows contiene un núcleo NT5:",
+      "correct_answer": "Windows 2000"
+    },
+    {
+      "id": "q51",
+      "type": "single_choice",
+      "options": [
+        "Los trabajos necesitan más recursos que los comandos",
+        "Los trabajos solamente puede ejecutarlos un superusuario",
+        "Los trabajos son comandos ejecutándose en segundo plano",
+        "Son dos conceptos completamente iguales"
+      ],
+      "question": "¿Cuál es la diferencia entre comandos y trabajos (jobs) para el Shell?",
+      "correct_answer": "Los trabajos son comandos ejecutándose en segundo plano"
+    },
+    {
+      "id": "q52",
+      "type": "single_choice",
+      "options": [
+        "Indica si el comando está ya en ejecución",
+        "Vuelca la salida en un fichero de texto",
+        "Da un error",
+        "Ejecuta el comando que contenga la variable"
+      ],
+      "question": "Si introduces en la línea de comandos $(comando), ¿qué hace el intérprete?",
+      "correct_answer": "Ejecuta el comando que contenga la variable"
+    },
+    {
+      "id": "q53",
+      "type": "single_choice",
+      "options": [
+        "Un comando complementario",
+        "Un comando paralelo sin privilegios",
+        "Un nombre alternativo",
+        "Un nombre más eficiente"
+      ],
+      "question": "Un alias de un cmdlet es:",
+      "correct_answer": "Un nombre alternativo"
+    },
+    {
+      "id": "q54",
+      "type": "single_choice",
+      "options": [
+        "Array de parámetros o valores sin declarar",
+        "Home",
+        "Ruta completa al directorio actual",
+        "Ruta completa al directorio inicial de un usuario"
+      ],
+      "question": "¿Qué contiene la variable automática $Home?",
+      "correct_answer": "Ruta completa al directorio inicial de un usuario"
+    },
+    {
+      "id": "q55",
+      "type": "single_choice",
+      "options": ["10", "15", "20", "25"],
+      "question": "Siendo: Function operacion {\nparam ([double]$n1, [double]$n2);\n($n1 + $n2) /2;\n}\n¿Cuál es la salida de lo siguiente?\nPS > $res = operacion -n1 10 -n2 20\nPS > $res",
+      "correct_answer": "15"
+    },
+
+    {
+      "id": "q56",
+      "type": "single_choice",
+      "options": [
+        "mv contabilidad hipoteca",
+        "rm contabilidad hipoteca",
+        "cp contabilidad hipoteca",
+        "mv hipoteca contabilidad"
+      ],
+      "question": "Queremos cambiar el nombre del directorio 'contabilidad' por el nombre 'hipoteca', para ello ejecutaremos el comando",
+      "correct_answer": "mv contabilidad hipoteca"
+    },
+    {
+      "id": "q57",
+      "type": "single_choice",
+      "options": [
+        "Se genera un error y no compila",
+        "Se genera un fichero .exe con el mismo nombre",
+        "Se genera un fichero .o con el mismo nombre",
+        "Se genera un fichero a.out ejecutable"
+      ],
+      "question": "¿Qué ocurre cuando al compilar un programa en C no se usa la opción –o?",
+      "correct_answer": "Se genera un fichero a.out ejecutable"
+    },
+    {
+      "id": "q58",
+      "type": "single_choice",
+      "options": ["sort", "su", "tar", "who"],
+      "question": "¿Qué comando Linux ordena las líneas en un archivo de texto?",
+      "correct_answer": "sort"
+    },
+    {
+      "id": "q59",
+      "type": "single_choice",
+      "options": [
+        "Indica si el comando está ya en ejecución",
+        "Vuelca la salida en un fichero de texto",
+        "Da un error",
+        "Ejecuta el comando que contenga la variable"
+      ],
+      "question": "Si introduces en la línea de comandos $(comando), ¿qué hace el intérprete?",
+      "correct_answer": "Ejecuta el comando que contenga la variable"
+    }
+  ]
+}
