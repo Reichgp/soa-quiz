@@ -2,7 +2,7 @@ let data;
 let index = 0;
 let score = 0;
 
-fetch("SOA_22-25-test-v7.json")
+fetch("SOA_test.json")
   .then(res => res.json())
   .then(json => {
     data = json.questions;
