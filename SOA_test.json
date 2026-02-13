@@ -550,7 +550,7 @@
       "68",
       "84"
     ],
-    "correct_answer": "35",
+    "correct_answer": "84",
     "explanation": "En Bash, los arrays se indexan desde 0, por lo que el índice 3 es el cuarto valor (56=0, 84=1, 95=2, 35=3)."
   },
   {
@@ -1026,14 +1026,14 @@
     "type": "single_choice",
     "question": "¿Qué es el Spooling?",
     "options": [
-      "Lenguaje",
-      "Lectura de programas directamente a disco para desacoplar CPU",
-      "Dibujo 3D",
-      "Error"
+      "Un lenguaje de programación",
+      "La capacidad de leer programas directamente de tarjetas perforadas al disco para procesarlos",
+      "Una técnica de dibujo en 3D",
+      "Un error de hardware"
     ],
-    "correct_answer": "La capacidad de leer programas directamente de tarjetas perforadas al disco para procesarlos.",
-    "explanation": "Elimina el cuello de botella de los periféricos lentos."
-  },
+    "correct_answer": "La capacidad de leer programas directamente de tarjetas perforadas al disco para procesarlos",
+    "explanation": "El Spooling (Simultaneous Peripheral Operation On Line) permite que la CPU no tenga que esperar a los periféricos lentos, leyendo los datos directamente a un almacenamiento intermedio (disco) para su posterior procesamiento, eliminando así cuellos de botella."
+}
   {
     "id": "q80",
     "type": "single_choice",
@@ -1869,7 +1869,7 @@
   {
     "id": "q144",
     "type": "single_choice",
-    "question": "Para avanzar por el historial de comandos pulsamos:",
+    "question": "Para avanzar por el historial de comandos pulsamos: (avanzar por el historial de comandos es ir hacia atrás)",
     "options": [
       "Ctrl + R.",
       "Flecha arriba.",
@@ -2597,7 +2597,7 @@
   {
     "id": "q200",
     "type": "single_choice",
-    "question": "Si definimos int M;, ¿de qué tipo es M?",
+    "question": "Si definimos int M[5];, ¿de qué tipo es M?",
     "options": [
       "Matriz.",
       "int",
@@ -4051,7 +4051,7 @@
   {
     "id": "q312",
     "type": "single_choice",
-    "question": "¿Qué significa fichero1 ot fichero2?",
+    "question": "¿Qué significa fichero1 -ot fichero2?",
     "options": [
       "Fichero1 es más grande que fichero2.",
       "Fichero1 es más pequeño que fichero2.",
@@ -4059,7 +4059,7 @@
       "Fichero1 es más antiguo que fichero2."
     ],
     "correct_answer": "Fichero1 es más antiguo que fichero2.",
-    "explanation": "En los comandos de test de Linux, 'ot' significa 'older than' (más antiguo que). Compara las fechas de modificación de ambos archivos [21, 23, 24]."
+    "explanation": "En los comandos de test de Linux, -ot' significa 'older than' (más antiguo que). Compara las fechas de modificación de ambos archivos [21, 23, 24]."
   },
   {
     "id": "q313",
@@ -4076,14 +4076,14 @@
   {
     "id": "q314",
     "type": "single_choice",
-    "question": "Si después de hacer numeros=(56 84 95 35 68 68 54 75), ¿echo ${numeros[27]} mostrará?",
+    "question": "Si después de hacer numeros=(56 84 95 35 68 68 54 75), ¿echo ${numeros[3]} mostrará?",
     "options": [
       "95.",
       "35.",
       "68."
     ],
     "correct_answer": "35.",
-    "explanation": "Los arrays en Bash comienzan su índice en 0. Por lo tanto, el índice [27] corresponde al cuarto elemento de la lista definida (56, 84, 95, 35) [28-30]."
+    "explanation": "Los arrays en Bash comienzan su índice en 0. Por lo tanto, el índice [3] corresponde al cuarto elemento de la lista definida (56, 84, 95, 35) [28-30]."
   },
   {
     "id": "q315",
