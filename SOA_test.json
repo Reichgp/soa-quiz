@@ -1033,7 +1033,7 @@
     ],
     "correct_answer": "La capacidad de leer programas directamente de tarjetas perforadas al disco para procesarlos",
     "explanation": "El Spooling (Simultaneous Peripheral Operation On Line) permite que la CPU no tenga que esperar a los periféricos lentos, leyendo los datos directamente a un almacenamiento intermedio (disco) para su posterior procesamiento, eliminando así cuellos de botella."
-}
+},
   {
     "id": "q80",
     "type": "single_choice",
