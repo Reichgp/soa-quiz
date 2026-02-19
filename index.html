@@ -129,6 +129,19 @@
     }
 
     .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
+  /* ===== OPCIÓN SELECCIONADA MUY VISIBLE ===== */
+.opt:has(input[type="radio"]:checked){
+  border-color: #7aa2ff;
+  background: #1f2a44;
+  box-shadow: 0 0 0 3px #7aa2ff;
+  transform: scale(1.01);
+}
+
+/* Radio más grande en móvil */
+.opt input[type="radio"]{
+  transform: scale(1.35);
+  accent-color: #7aa2ff;
+}
   </style>
 </head>
 
