@@ -420,7 +420,7 @@
       "El código de las llamadas está en el kernel",
       "Tiempo de ejecución"
     ],
-    "correct_answer": "El código de las llamadas al sistema está en el kernel",
+    "correct_answer": "El código de las llamadas está en el kernel",
     "explanation": "A diferencia de las funciones de librería, las llamadas requieren un cambio al modo kernel para ejecutarse."
   },
   {
