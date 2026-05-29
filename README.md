@@ -1,64 +1,28 @@
-# SOA Test – Banco de preguntas tipo test
+# quiz-soa 🧠
 
-Repositorio con un **banco de preguntas tipo test de la asignatura Sistemas Operativos Avanzados (SOA)**, preparado para su uso en **GitHub Pages** como herramienta de práctica y autoevaluación.
+Interactive self-assessment test engine for **SOA (Sistemas Operativos Avanzados / Advanced Operating Systems)**.
 
-## Contenido
-- **375 preguntas tipo test**.
-- Preguntas organizadas por bloques del temario de SOA:
-  - Concepto y estructura de sistemas operativos
-  - Historia de los sistemas operativos
-  - Llamadas al sistema
-  - Procesos, hilos y planificación
-  - Memoria y comunicación entre procesos
-  - Windows y Linux
-  - Shell y programación en Bash
-  - PowerShell
-  - Programación del sistema en C (UNIX y Windows)
-- Cada pregunta incluye:
-  - opciones de respuesta,
-  - **respuesta correcta**,
-  - **explicación justificativa** que se muestra tras responder.
+This repository contains an original self-assessment platform and curated question set created by the repository owner with AI-assisted content generation, validation and refinement workflows.
 
-## Funcionamiento
-La aplicación funciona como una **web estática**:
-- `index.html`: interfaz del test.
-- `quiz.js`: lógica del cuestionario.
-- `SOA_test.json`: banco de preguntas en formato JSON.
+Part of the DevQuiz-Hub ecosystem.
 
-No requiere backend ni base de datos.
+## 📚 Core Topics Covered
 
-El sistema permite:
-- orden aleatorio de preguntas,
-- orden aleatorio de respuestas,
-- visualización del progreso,
-- explicación tras acertar o fallar.
+* **Block 1**: Operating System architecture, kernel design, processes and system resources.
+* **Block 2**: Memory management, file systems, storage technologies and system performance.
+* **Block 3**: Linux administration, shell scripting, PowerShell and command-line environments.
+* **Block 4**: Client-server architectures, networking fundamentals, sockets and distributed systems.
+* **Block 5**: APIs, operating system services, hardware abstraction and system calls.
+* **Block 6**: Computer architecture evolution, operating system generations and low-level system concepts.
 
-## Origen del contenido
-- Preguntas recopiladas y adaptadas a partir de **material docente y exámenes tipo** de la asignatura SOA.
-- Parte del contenido ha sido **estructurado y ampliado con apoyo de herramientas de inteligencia artificial**, manteniendo la coherencia con el temario y el enfoque académico de la asignatura.
+## 🛠️ Data Contract & Logic
 
-## Uso
-Este repositorio está pensado para:
-- práctica autónoma,
-- repaso de conceptos clave,
-- simulación de tests de examen,
-- apoyo al estudio continuo de SOA.
+This repository implements the standardized architecture of the organization:
 
-La aplicación puede compartirse libremente mediante GitHub Pages.
+* **`soa_questions.json`**: Holds the structured question schema, metadata and explanatory content.
+* **`quiz.js`**: Core asynchronous engine handling in-place shuffling, dynamic data fetching and client-side state management.
+* **`index.html`**: Zero-dependency SPA frontend built with responsive modern CSS variables.
 
-## Aviso
-Este material tiene un **uso exclusivamente educativo** y **no garantiza coincidencia exacta con exámenes oficiales**.  
-Debe utilizarse como **complemento de estudio**, no como única fuente.
+## 🚀 Live Demo
 
-Las respuestas incluidas **no han sido validadas de forma oficial** y pueden contener errores puntuales.  
-Se recomienda **contrastar siempre con el temario y los materiales docentes oficiales**.
-
-## Licencia
-Este repositorio se publica bajo licencia **Creative Commons BY-NC-SA 4.0**  
-(Atribución – No Comercial – Compartir Igual).
-
-El contenido puede compartirse y adaptarse con fines educativos,  
-pero **no puede utilizarse con fines comerciales**.
-
----
-Proyecto personal de estudio.
+🔗 **https://reichgp.github.io/soa-quiz/**
